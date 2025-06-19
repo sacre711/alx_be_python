@@ -1,5 +1,5 @@
-number1 = 10 # value assigned to the first variable
-number2 = 5 # value assigned to the second variable
+global  number1 = 10 # value assigned to the first variable
+global number2 = 5 # value assigned to the second variable
 addition = number1 + number2
 subtraction = number1 - number2
 quotient = number1 * number2
