@@ -4,14 +4,18 @@ num2 = float(input("Enter the second number:"))
 operation = input("Choose the operation (+, -, *, /):")
 match operation:
  case "+":
-   print("Result:", num1+num2)
+     result = num1 + num2   
+     print(f"The result is {result}")
  case "-":
-   print("Result:", num1-num2)
+   result = num1 - num2   
+     print(f"The result is {result}")
  case "*":
-   print("Result:", num1*num2)
+   result = num1 * num2   
+     print(f"The result is {result}")
   case "/":
     if num2 == 0:
       print("Cannot divide by zero.")
     else: 
-      print("Result:", num1/num2)
+      result = num1 / num2   
+     print(f"The result is {result}")
 
