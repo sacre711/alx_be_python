@@ -16,16 +16,16 @@ while True:
       shopping_list.append("{item}") 
       print(f"{item} has been added.")
       pass
-      elif user == "2":
-        item = input("Enter the item to remove:")
-        shopping_list.remove("{item}")
-        print(f"{item} has been removed.")
-        pass
-      elif user == "3":
-        return shopping_list
-        pass
-      elif user == "4":
-        print("Goodbye!")
-        break
+    elif user == "2":
+      item = input("Enter the item to remove:")
+      shopping_list.remove("{item}")
+      print(f"{item} has been removed.")
+      pass
+    elif user == "3":
+      return shopping_list
+      pass
+    elif user == "4":
+      print("Goodbye!")
+      break
     else: 
       print("Invalid choice. Please try again.")
