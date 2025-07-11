@@ -4,14 +4,13 @@
 def perform_operation(num1, num2, opration):
     match operation:
       case "add":
-        result = num1+num2
+        return num1+num2
       case "subtract":
-        result = num1-num2
+        return num1-num2
       case "multiply":
-        result = num1*num2
+        return num1*num2
       case "divide":
         if num2 == 0:
-          print("Cannot divide by 0")
+          return "Cannot divide by 0"
         else:
-          result = num1/num2
-    print("Result: {result}")
+          return num1/num2
