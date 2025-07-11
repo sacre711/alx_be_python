@@ -12,12 +12,12 @@ user = input("Make your choice 1-4:")
 option = 0
 while option !== 5:
     if user == "1":
-      item = input("Item:")
+      item = input("Enter the item to add::")
       shopping_list.append("{item}")
       print(f"{item} has been added.")
       pass
       elif user == "2":
-        item = input("Item:")
+        item = input("Enter the item to remove:")
         shopping_list.remove("{item}")
         print(f"{item} has been removed.")
         pass
