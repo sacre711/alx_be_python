@@ -8,24 +8,17 @@ def display_menu():
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
-
-  while True:
+user = input("Choose numbers 1 - 4:")    
+while True:
     if user == "1":
-        
       item = input("Enter the item to add:")
-        
-      shopping_list.append("{item}")
-        
+      shopping_list.append("{item}") 
       print(f"{item} has been added.")
-        
       pass
       elif user == "2":
         item = input("Enter the item to remove:")
-          
         shopping_list.remove("{item}")
-          
         print(f"{item} has been removed.")
-          
         pass
       elif user == "3":
         return shopping_list
