@@ -1,7 +1,7 @@
 #arithmetic_operations.py
 #define the function
 
-def perform_operation(num1, num2, opration):
+def perform_operation(num1, num2, operation):
     match operation:
       case "add":
         return num1+num2
