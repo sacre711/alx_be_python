@@ -9,6 +9,7 @@ def display_menu():
     print("3. View List")
     print("4. Exit")
 user = input("Make your choice 1-4:")
+item = input("Enter the item to add:")
 option = 0
 while option !== 5:
     if user == "1":
