@@ -9,7 +9,7 @@ def display_menu():
     print("3. View List")
     print("4. Exit")
 
-while True:
+  while True:
     if user == "1":
         
       item = input("Enter the item to add:")
