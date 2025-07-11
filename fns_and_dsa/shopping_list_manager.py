@@ -1,6 +1,7 @@
 #shopping_list_manager.py
 
 shopping_list = []
+item = input("Enter the item to add:")
 
 def display_menu():
     print("Shopping List Manager")
