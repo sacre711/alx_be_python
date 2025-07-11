@@ -1,7 +1,6 @@
 #shopping_list_manager.py
 
 shopping_list = []
-item = input("Enter the item to add:")
 
 def display_menu():
     print("Shopping List Manager")
@@ -12,12 +11,12 @@ def display_menu():
 user = input("Choose numbers 1 - 4:")    
 while True:
     if user == "1":
-      item = input("Enter the item to add:")
+      item = input("Enter the item to add: ")
       shopping_list.append("{item}") 
       print(f"{item} has been added.")
       pass
     elif user == "2":
-      item = input("Enter the item to remove:")
+      item = input("Enter the item to remove: ")
       shopping_list.remove("{item}")
       print(f"{item} has been removed.")
       pass
