@@ -2,16 +2,14 @@
 
 shopping_list = []
 
-def display_menu():
+def display_menu(shopping_list):
     print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
 user = input("Make your choice 1-4:")
-item = input("Enter the item to add:")
-option = 0
-while option !== 5:
+while True:
     if user == "1":
         
       item = input("Enter the item to add:")
@@ -38,4 +36,4 @@ while option !== 5:
     else: 
       print("Invalid choice. Please try again.")
 
-  
+display_menu(shopping_list)
