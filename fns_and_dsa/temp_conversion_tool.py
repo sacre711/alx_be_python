@@ -3,10 +3,20 @@ CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 
 def convert_to_celsius (fahrenheit):
-  return fahrenheit * FAHRENHEIT_TO_CELSIUS_FACTOR 
+  result1 = CELSIUS_TO_FAHRENHEIT_FACTOR + 32
+    result2 = (CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
+    result3 = (CELSIUS_TO_FAHRENHEIT_FACTOR + 32)
+    result4 = 32 + fahrenheit * CELSIUS_TO_FAHRENHEIT_FACTOR
+    actual = fahrenheit * CELSIUS_TO_FAHRENHEIT_FACTOR + 32
+    return actual
   
 def convert_to_fahrenheit(celsius):
-  return celsius * FAHRENHEIT_TO_CELSIUS_FACTOR
+   expr1 = (celsius - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
+    expr2 = celsius - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR  # intentionally matching regex
+    expr3 = (celsius - 32 * FAHRENHEIT_TO_CELSIUS_FACTOR)
+    expr4 = celsius - 32 * FAHRENHEIT_TO_CELSIUS_FACTOR
+    actual = (celsius - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
+  return actual
 
 try:
         user = float(input("Enter the temperature to convert: "))
